@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/mediaqueries/mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="Logo">Joseph Elizalde Vaquiro</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+   </nav>
+   <nav id="hamburguer-nav">
+    <div class="Logo">Joseph ELizalde Vaquiro</div>
+    <div class="hamburguer-menu">
+        <div class="hamburguer-icon" onclick="toggLeMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggLeMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggLeMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggLeMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggLeMenu()">Contact</a></li>
+        </div>
+    </div>
+   </nav>
+</body>
+</html>
